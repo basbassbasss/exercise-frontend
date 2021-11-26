@@ -1,0 +1,30 @@
+.container {
+  overflow: hidden;
+  border-top: 3px solid rgb(237, 237 ,237);
+  padding-top: 15px;
+
+  @media screen and (min-width: 980px){
+    padding-top: 0;
+    border-top: 0;
+    border-bottom: 3px solid rgb(237, 237 ,237);
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 10px;
+  max-width: 100%;
+
+  @media screen and (min-width: 500px){
+    width: 320px;
+  }
+
+  @media screen and (min-width: 980px){
+    width: 500px;
+    gap: 50px;
+  }
+}

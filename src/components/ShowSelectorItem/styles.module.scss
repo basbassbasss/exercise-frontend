@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+.block {
+  background: black;
+  width: 40px;
+  height: 40px;
+
+  @media screen and (min-width: 980px){
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.identifier {
+  text-align: center;
+  margin-block: 10px;
+}

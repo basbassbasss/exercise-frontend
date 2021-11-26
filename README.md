@@ -1,3 +1,6 @@
+# Testing
+Run `yarn start-api`, then either run `yarn build && yarn serve` or `yarn dev`
+
 # VICE Front End Coding Exercise
 
 Below is a HTML/CSS/JS exercise that involves building out a web component, or single page app, to navigate through various VICE shows.

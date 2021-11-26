@@ -1,18 +1,45 @@
 {
   "name": "exercise-frontend",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/VICEMedia/exercise-frontend",
-  "author": "VICE Engineering <engineering@vice.com>",
+  "repository": "https://github.com/basbassbasss/exercise-frontend",
   "license": "MIT",
   "scripts": {
-    "start-api": "json-server --watch shows.json"
+    "start-api": "json-server --watch shows.json --port 3001",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint ./src --ext .ts,.tsx --fix --ignore-path ./.gitignore",
+    "serve": "vite preview"
   },
   "dependencies": {
-    "json-server": "0.16.1"
+    "axios": "^0.24.0",
+    "json-server": "0.16.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react": "^7.27.1",
+    "prettier": "^2.5.0",
+    "sass": "^1.43.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
   },
   "engines": {
-    "node": "12.14.1",
-    "npm": "6.13.6"
+    "node": ">=12.0.0",
+    "yarn": "^1.22.17"
   }
 }
