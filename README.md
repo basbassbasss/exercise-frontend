@@ -1,5 +1,5 @@
 # Testing
-Run `yarn start-api`, then either run `yarn build && yarn serve` or `yarn dev`
+Run `yarn install`, `yarn start-api`, then either run `yarn build && yarn serve` or `yarn dev`. To run the test(s), run `yarn test`.
 
 # VICE Front End Coding Exercise
 
